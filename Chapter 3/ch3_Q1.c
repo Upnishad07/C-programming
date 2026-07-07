@@ -2,7 +2,6 @@
 int main()
 {
   int a;
-  a<=2;
   printf("How many exams have you passed? from--\n1.Mathematics\n2.Scifence\n");
   scanf("%d", &a);
   if (a == 2)
@@ -11,7 +10,7 @@ int main()
    }
   else if(a==1)
   {
-    printf("Good you have passed one exam, you 15 as your reward!");
+    printf("Good you have passed one exam, you got 15 as your reward!");
   } 
   else {
     printf("You should work hard but anyway, Better luck next time");
