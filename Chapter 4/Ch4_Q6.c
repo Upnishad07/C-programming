@@ -7,12 +7,11 @@ int main()
     printf("Provide the number \n");
     scanf("%d", &c);
     sum = c;
-    while(b<=10)
+    while(b <= 10)
     {
         sum = sum + (b*c);
         b++;
     }
-
     printf("%d", sum);
     return 0;
 }
