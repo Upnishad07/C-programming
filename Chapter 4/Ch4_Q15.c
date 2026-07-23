@@ -3,10 +3,10 @@
 #include <stdio.h>
 int main()
 {
-    int a, z = 1, b = 2, i = 1, y = 0;
+    int a, z = 1, b = 2, i = 2, y = 0;
     printf("Enter the number\n");
     scanf("%d", &a);
-    while (z < a - 1)
+    while (z < a-1)
     {
         for (int i = 2; i < b; i++)
         {
